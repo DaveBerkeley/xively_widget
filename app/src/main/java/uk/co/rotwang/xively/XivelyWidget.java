@@ -300,8 +300,8 @@ public class XivelyWidget extends AppWidgetProvider {
             s.read(this, widgetId);
 
             // TODO : make these work with any phone
-            int width = 500;
-            int height = 160;
+            int width = 700;
+            int height = 240;
             // convert "rrggbb" into web format
             String graph_colour = URLEncoder.encode("#" + s.graph_colour);
 
