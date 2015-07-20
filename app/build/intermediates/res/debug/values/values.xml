@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/home/dave/StudioProjects/CosmWidget/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string-array name="duration_array">
+        <item>10minutes</item>
+        <item>30minutes</item>
+        <item>1hours</item>
+        <item>3hours</item>
+        <item>6hours</item>
+        <item>12hours</item>
+        <item>18hours</item>
+        <item>1days</item>
+        <item>2days</item>
+        <item>3days</item>
+        <item>1weeks</item>
+        <item>2weeks</item>
+        <item>1months</item>
+        <item>3months</item>
+        <item>6months</item>
+        <item>1years</item>
+    </string-array>
+    <string name="about_menu">About</string>
+    <string name="about_message">
+        Draw graphs of xively feeds.
+        Enter the feed ID to generate a graph.
+        Add datastream IDs to display text (requires a key).        
+        \n\n
+        See 
+        <a href="http://www.rotwang.co.uk/android/xively_widget.html">
+             www.rotwang.co.uk
+        </a>
+        for more details. 
+        \n\n
+        Copyright © Dave Berkeley 2015.
+    </string>
+    <string name="app_name">Xively Widget Editor</string>
+    <string name="bitmap_error">Error Reading Feed</string>
+    <string name="dummy">blah blah blah</string>
+    <string name="duration">Graph Duration</string>
+    <string name="duration_prompt">Choose a graph duration</string>
+    <string name="error">error</string>
+    <string name="feed">Xively Feed ID</string>
+    <string name="graph_colour">Graph Colour (in hex RRGGBB)</string>
+    <string name="help_menu">Help</string>
+    <string name="help_url">http://www.rotwang.co.uk/android/xively_widget_help.html</string>
+    <string name="key">Key (required for numeric datastreams)</string>
+    <string name="no_feed">No Feed Selected</string>
+    <string name="no_service">no service</string>
+    <string name="no_stream">stream not found</string>
+    <string name="no_wid_message">
+        The Xively Widget Editor has been run without first creating a widget.
+        \n\n
+        You need to add a Xively Widget to your homepage. Clicking on the widget
+        will then launch the editor. 
+    </string>
+    <string name="number_colour">Numeric Colour (in hex RRGGBB)</string>
+    <string name="number_ids">Numeric Datastream IDs (comma separated)</string>
+    <string name="scale_auto">Auto Scale</string>
+    <string name="scale_max">Y Scale Maximum</string>
+    <string name="scale_min">Y Scale Minimum</string>
+    <string name="stream">Graph Datastream ID</string>
+    <string name="widget_loading">Widget Loading</string>
+    <string name="widget_name">Xively Widget</string>
+    <string name="xively_menu">Xively Page</string>
+    <string name="xively_url">https://cosm.com/feeds/</string>
+    <!-- From: file:/home/dave/StudioProjects/CosmWidget/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="Text"/>
+    <style name="Text.Loading">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#FFC0C0C0</item>
+    </style>
+</resources>
