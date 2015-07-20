@@ -224,6 +224,8 @@ public class XivelyWidgetActivity extends Activity {
         s.graph_colour = edit.getText().toString();
         edit = (EditText) findViewById(R.id.number_colour);
         s.number_colour = edit.getText().toString();
+        edit = (EditText) findViewById(R.id.title);
+        s.title = edit.getText().toString();
         s.show("get gui");
 
         return s;
@@ -266,5 +268,7 @@ public class XivelyWidgetActivity extends Activity {
         edit.setText(s.graph_colour);
         edit = (EditText) findViewById(R.id.number_colour);
         edit.setText(s.number_colour);
+        edit = (EditText) findViewById(R.id.title);
+        edit.setText(s.title);
 	}
 }

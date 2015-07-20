@@ -315,6 +315,10 @@ public class XivelyWidget extends AppWidgetProvider {
             		"&detailed_grid=true" +
             		"";
 
+			if (s.title.length() > 0) {
+				url += "&t=" + URLEncoder.encode(s.title);
+			}
+
             // TODO : Get the timezone working properly
             url += "&timezone=UTC";
 

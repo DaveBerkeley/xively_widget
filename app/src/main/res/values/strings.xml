@@ -5,6 +5,7 @@
     <string name="key">Key (required for numeric datastreams)</string>
     <string name="feed">Xively Feed ID</string>
     <string name="stream">Graph Datastream ID</string>
+    <string name="title">Title</string>
     <string name="graph_colour">Graph Colour (in hex RRGGBB)</string>
     <string name="number_colour">Numeric Colour (in hex RRGGBB)</string>
     <string name="number_ids">Numeric Datastream IDs (comma separated)</string>

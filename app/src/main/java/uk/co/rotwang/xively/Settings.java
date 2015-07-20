@@ -43,6 +43,7 @@ public class Settings {
 	String graph_colour;
 	String number_colour;
 	String update_period;
+	String title;
 
 	public void show(String label) {
 		/*
@@ -84,6 +85,7 @@ public class Settings {
         graph_colour = sp.getString("graph_colour", "FF0000"); // RRGGBB
         number_colour = sp.getString("number_colour", "0000FF"); // RRGGBB
         update_period = sp.getString("update_period", "3600000"); // 30m
+		title = sp.getString("title", "");
         show("read");
 	}
 
@@ -105,6 +107,7 @@ public class Settings {
 	    edit.putString("graph_colour", graph_colour);
 	    edit.putString("number_colour", number_colour);
 	    edit.putString("update_period", update_period);
+		edit.putString("title", title);
 	    edit.commit();
 	}
 
